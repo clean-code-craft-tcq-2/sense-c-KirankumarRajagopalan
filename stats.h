@@ -1,6 +1,3 @@
-#include <iosfwd>
-#include <string>
-#include <cstdint>
 
 struct Stats compute_statistics(const float* numberset, int setlength);
 
