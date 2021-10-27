@@ -1,8 +1,4 @@
-struct Stats s {
-    s.average = 0;
-    s.min = 0;
-    s.max = 0;
-};
+
 
 
 typedef void (*alerter_funcptr)();
