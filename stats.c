@@ -9,9 +9,7 @@
 
 struct Stats compute_statistics(const float* numberset, int setlength) {
 struct Stats s;
-setlength = sizeof(numberset) / sizeof(numberset[0]);
-  
-    return s;
+  return s;
 }
 
 
