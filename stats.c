@@ -4,10 +4,10 @@
 
 struct Stats compute_statistics(const float* numberset, int setlength) {
      
-    struct Stats *s = &compute_statistics;
+    struct Stats s;
 }
 
-struct Stats {
+struct Stats s {
     s.average = 0;
     s.min = 0;
     s.max = 0;
