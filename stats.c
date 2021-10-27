@@ -4,10 +4,11 @@ struct Stats {
     s.average = 0;
     s.min = 0;
     s.max = 0;
-}s ;
+};
 
 struct Stats compute_statistics(const float* numberset, int setlength) {
-      Stats s;
+     
+    struct Stats *s = &compute_statistics;
 }
 
 int emailAlertCallCount = 0;
