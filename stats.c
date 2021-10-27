@@ -7,7 +7,7 @@ struct Stats {
 }s ;
 
 struct Stats compute_statistics(const float* numberset, int setlength) {
-     struct Stats s;
+      Stats s;
 }
 
 int emailAlertCallCount = 0;
