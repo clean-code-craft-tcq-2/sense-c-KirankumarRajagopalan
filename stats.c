@@ -1,9 +1,9 @@
 #include "stats.h"
 
 struct Stats {
-    average = 0;
-    min = 0;
-    max = 0;
+    int average = 0;
+    int min = 0;
+    int max = 0;
 } s;
 
 
